@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res) => {
-    res.send("Welcome to the EgoWall Test Pipeline Home Page");
-    res.send("This is line two for test purpose");
+    res.send("Welcome to the EgoWall Test Pipeline Home Page Version 2.0");
 })
 
 const port = process.env.port || 3000;
